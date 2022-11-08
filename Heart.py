@@ -1,0 +1,21 @@
+from turtle import *
+
+bgcolor("pink")
+color("red")
+begin_fill()
+pensize(3)
+left(50)
+forward(133)
+circle(50,200)
+right(140)
+circle(50,200)
+forward(133)
+end_fill()
+
+color("pink")
+goto(-130,-190)
+color("red")
+write("Yusuf Ka**** & Zeh** *** ", font=("Verdana", 17,"bold"))
+color("pink")
+goto(-999,-0)
+exitonclick()
